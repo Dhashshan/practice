@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 350px;
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 20px;
+    border: 2px solid black;
+}
+.container>h2{
+    text-align: center;
+    font-weight: bold;
+}
+.container>ul>li{
+    list-style: none;
+    margin-bottom: 2px;
+}
+.container>h3{
+    color: blue;
+    margin: 5px;
+}
+.container>button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: green;
+    margin: 4px;
+}
+
+.container>button:hover{
+    background-color: red;
+}

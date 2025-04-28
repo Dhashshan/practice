@@ -1,0 +1,23 @@
+.header{
+    background-color: blanchedalmond;
+}
+.logo{
+    color: red;
+}
+button:hover{
+    color: white;
+    background-color: green;
+}
+button:active{
+    background-color: blueviolet;
+}
+button{
+    background-color: pink;
+    cursor: pointer;
+}
+.Information{
+    background-color: red;
+}
+.Information>p:nth-child(3){
+    background-color: aqua;
+}
