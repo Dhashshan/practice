@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container>.inner1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/1091165998/photo/city-skyline-and-buildings-with-empty-asphalt-road-at-sunrise.jpg?s=612x612&w=0&k=20&c=xq2UmT7OWwQSEyZex5rhDYHG6vD4nsc_m4XiF7UtGmI=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    gap: 20px;
+    background-attachment:fixed;
+}
+.container>.inner2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    gap: 20px;
+    background-attachment:fixed;
+}
+.container>.inner3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=0&k=20&c=kt8-RRzCDunpxgKFMBBjZ6jSteetNhhSxHZFvHQ0hNU=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    gap: 20px;
+    background-attachment: fixed;
+}
+.container>.inner4{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/1255610084/photo/endless-lavender-field-in-provence-france.jpg?s=612x612&w=0&k=20&c=Vli6wi5MsFzEh-2ElsoY_VI9Wgje6ERGPetVeRu9gzU=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    gap: 20px;
+    background-attachment: fixed;
+}
+.container>.inner5{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/607280514/photo/lupins-of-lake-tekapo.jpg?s=612x612&w=0&k=20&c=TLqHmSwcHKT1wR6U7H1KCJMmIq3SrgqHNOEyvziSCSg=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    gap: 20px;
+    background-attachment: fixed;
+}

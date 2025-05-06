@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height:100vh;
+    background-color: lightblue;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: linear-gradient(to top,red,blue,pink,black,yellow);
+    background-image: radial-gradient(circle,black,red,blue,white);
+    background-image: conic-gradient(red 45deg,yellow 90deg, blue 210deg);
+}

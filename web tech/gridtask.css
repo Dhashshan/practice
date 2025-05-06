@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.inner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 150px 200px 300px;
+    grid-auto-rows: 100px;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(227, 150, 150, 0.79);
+    
+}
+.box{
+    border: 2px solid green;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+#box1{
+    grid-column: span 3;
+    padding-top: 30px;
+    background-color: orange;
+}
+#box2{
+    grid-row: span 2;
+    padding-top: 80px;
+    background-color: rgb(230, 124, 124);
+    
+}
+#box3{
+    grid-column: span 2;
+    padding-top: 30px;
+    background-color: rgb(248, 248, 185);
+    
+}
+#box4{
+    padding-top: 30px;
+    background-color: rgb(136, 136, 240);
+}
+#box5{
+    padding-top: 30px;
+    background-color: rgb(141, 49, 49);
+}
+#box6{
+    padding-top:30px;
+    background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+#box7{
+    padding-top: 30px;
+    background-color: chartreuse;
+}
+#box8{
+    grid-row: span 2;
+    padding-top: 90px;
+    background-color: cadetblue;
+}
+#box9{
+    padding-top: 30px;
+    background-color: darkblue;
+}
+#box10{
+    padding-top: 30px;
+    background-color: rgb(19, 231, 231);
+}
